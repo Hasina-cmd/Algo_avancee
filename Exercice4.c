@@ -37,7 +37,7 @@ int main(){
     char Un_autre_essaie ;
 
     do {
-                //final
+                //final recursive
             printf("Fonction récursive (finale)\n");
             printf("Entrez l : ");
             scanf("%d", &l);
@@ -49,8 +49,7 @@ int main(){
             printf("Fonction itérative\n");
             printf("Entrez m : ");
             scanf("%d", &m);
-
-                //Fonction récursive 
+            
             int esl = NBCI(m);
             printf("Resultat : %d\n", esl);
 
